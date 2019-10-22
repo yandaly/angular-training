@@ -1,7 +1,7 @@
 <h3>Cart</h3>
+<script>console.log(this.items.length() + 'elements.')</script>
 
 <div class="cart-item" *ngFor="let item of items">
     <span>{{ item.name }}</span>
     <span>{{ item.price | currency }}</span>
-    <script>console.log('Un item!')</script>
 </div>
