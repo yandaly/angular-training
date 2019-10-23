@@ -13,6 +13,7 @@ export class CartComponent implements OnInit {
   items;
   count;
   price;
+  checkoutForm;
 
   constructor(
     private cartService: CartService,
